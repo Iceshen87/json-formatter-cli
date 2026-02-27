@@ -1,0 +1,21 @@
+{
+  "name": "json-formatter-cli",
+  "version": "1.0.0",
+  "description": "A simple CLI tool to format and validate JSON files",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "json-format": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "test"
+  },
+  "keywords": ["cli", "json", "formatter", "typescript"],
+  "author": "EthanHan",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "20.11.1",
+    "typescript": "#5.0.2"
+  }
+}
